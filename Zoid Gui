@@ -1,0 +1,93 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+
+local Window = Library.CreateLib("Zoid UI - 2.1.1", "DarkTheme")
+
+local Tab = Window:NewTab("Scripts")
+
+local Section = Tab:NewSection("Scripts")
+
+Section:NewKeybind("Close/Open Gui", "idk what put here", Enum.KeyCode.Q, function()
+
+	Library:ToggleUI()
+	
+end)
+
+Section:NewButton("Infinity Yield", "A Cool Admin Gui", function()
+
+    print("Clicked")
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+    
+end)
+
+local Tab = Window:NewTab("Change Sky")
+
+local Section = Tab:NewSection("Soon")
+
+Section:NewButton("Soon", "Soon", function()
+
+    print("Clicked")
+
+end)
+
+Section:NewButton("Soon", "Soon", function()
+
+    print("Clicked")
+
+end)
+
+Section:NewButton("Soon", "Soon", function()
+
+    print("Clicked")
+
+end)
+
+Section:NewButton("Soon", "Soon", function()
+
+    print("Clicked")
+
+end)
+
+local Tab = Window:NewTab("Updates")
+
+local Section = Tab:NewSection("Infinity Yield And V-Hub Gui")
+
+local Tab = Window:NewTab("Slap Battles")
+
+local Section = Tab:NewSection("Slap Battles")
+
+Section:NewButton("Get All Badges (Not Working)", "meh", function()
+
+    print("Clicked")
+    
+end)
+
+Section:NewButton("Get In Leaderstats (use at your risk) (Not Working)", "meh", function()
+
+    print("Clicked")
+    
+end)
+
+Section:NewButton("Get 1M Slaps (Not Working)", "meh", function()
+
+    print("Clicked")
+    
+end)
+
+Section:NewButton("Get All Gloves (Not Working)", "meh", function()
+
+    print("Clicked")
+    
+end)
+
+local Tab = Window:NewTab("Guis")
+
+local Section = Tab:NewSection("Guis")
+
+Section:NewButton("V-Hub", "Working", function()
+
+    print("Clicked")
+    
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Quan8008/V-Hub/Master/Launch-Screen.lua"))();
+    
+end)
